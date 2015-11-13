@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
+body{
+	background: url('images/bg.jpg') no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+	width:30%;
+	display: block;
+	margin: 10px auto;
+}
+.under{
+	width:70%;
+	display: block;
+	margin: 10px auto;
+}
+.presentation{
+	display: block;
+	margin: 20px auto;
+}
+.contact{
+	background-color:rgba(0, 0, 0, 0.5);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	-webkit-border-radius: 0px 20px 0px 0px;
+	-moz-border-radius: 0px 20px 0px 0px;
+	border-radius: 0px 20px 0px 0px;
+}
+.contact a{
+	color: #fff;
+	text-decoration: none;
+}
